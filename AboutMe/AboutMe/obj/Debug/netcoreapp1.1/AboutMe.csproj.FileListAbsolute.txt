@@ -1,0 +1,9 @@
+d:\Users\Administrator\Documents\Visual Studio 2017\Projects\C#\AboutMe\AboutMe\bin\Debug\netcoreapp1.1\AboutMe.deps.json
+d:\Users\Administrator\Documents\Visual Studio 2017\Projects\C#\AboutMe\AboutMe\bin\Debug\netcoreapp1.1\AboutMe.runtimeconfig.json
+d:\Users\Administrator\Documents\Visual Studio 2017\Projects\C#\AboutMe\AboutMe\bin\Debug\netcoreapp1.1\AboutMe.runtimeconfig.dev.json
+d:\Users\Administrator\Documents\Visual Studio 2017\Projects\C#\AboutMe\AboutMe\bin\Debug\netcoreapp1.1\AboutMe.dll
+d:\Users\Administrator\Documents\Visual Studio 2017\Projects\C#\AboutMe\AboutMe\bin\Debug\netcoreapp1.1\AboutMe.pdb
+d:\Users\Administrator\Documents\Visual Studio 2017\Projects\C#\AboutMe\AboutMe\obj\Debug\netcoreapp1.1\AboutMe.csprojResolveAssemblyReference.cache
+d:\Users\Administrator\Documents\Visual Studio 2017\Projects\C#\AboutMe\AboutMe\obj\Debug\netcoreapp1.1\AboutMe.AssemblyInfo.cs
+d:\Users\Administrator\Documents\Visual Studio 2017\Projects\C#\AboutMe\AboutMe\obj\Debug\netcoreapp1.1\AboutMe.dll
+d:\Users\Administrator\Documents\Visual Studio 2017\Projects\C#\AboutMe\AboutMe\obj\Debug\netcoreapp1.1\AboutMe.pdb
