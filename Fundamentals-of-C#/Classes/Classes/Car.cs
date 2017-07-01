@@ -27,17 +27,19 @@ namespace Classes
         // Constructor
         public Car()
         {
+            string defaultValue = "Default";
+
             // Set fields
-            make = "Default";
-            model = "Default";
+            make = defaultValue;
+            model = defaultValue;
             year = 0;
-            colour = "Default";
+            colour = defaultValue;
 
             // Set properties
-            Make = "Default";
-            Model = "Default";
+            Make = defaultValue;
+            Model = defaultValue;
             Year = 0;
-            Colour = "Default";
+            Colour = defaultValue;
         }
 
         // Overloaded Constructor
