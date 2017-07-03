@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>David Aaron Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learn to program.">
+    <link href="https://fonts.googleapis.com/css?family=Cantarell:400,700|Kotta+One" rel="stylesheet">
+    <link rel="stylesheet" href="/css/mcleod-reset.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/mq_800-plus.css" media="(min-width: 800px)">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/animate.min.css" rel="stylesheet">
+    <link href="/css/lightbox.css" rel="stylesheet">
+    <link href="/css/responsive.css" rel="stylesheet">
+</head>
+<body>
+
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 overflow">
+                <div class="social-icons pull-right">
+                    <ul class="nav nav-pills">
+                        <li><a href="https://www.facebook.com/david.simon.42"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/dsaaron123"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/david-aaron/"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/DimSim101"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://bitbucket.org/DSA123/"><i class="fa fa-bitbucket"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-inverse" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#">
+                    <h1><img src="/images/logo.png" alt="logo"></h1>
+                </a>
+
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#portfolio">Portfolio</a></li>
+                    <li class="active"><a href="#skills">Skills</a></li>
+                    <li class="active"><a href="#aboutme">About Me</a></li>
+                    <li class="active"><a href="#testimonials">Testimonials</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section id="idx-atf">
+    <div class="idx-center-spacebetween">
+        <h1>David Aaron Portfolio Website</h1>
+        <div class="idx-center-center">
+            <h2>AlWAYS LEARNING.</h2>
+            <h3>TOGETHER WE ALL SUCCEED. - Todd Mcleod</h3>
+        </div>
+        <a href="#portfolio"><button>CHECK OUT MY PORTFOLIO</button></a>
+    </div>
+</section>
+
+<section id="home-slider">
+    <div class="container">
+        <div class="row">
+            <div class="main-slider wow fadeInDownBig" data-wow-duration="1000ms" data-wow-delay="100ms">
+                <div class="slide-text">
+                    <h1>Welcome to my website!</h1>
+                    <p>This is just a showcase of a few projects I have been involved
+                    in and some interesting things I have seen / done while on my
+                    Computer Science learning journey :)</p>
+                    <a href="#aboutme" class="btn btn-common">Find Out About Me</a>
+                </div>
+                <img src="/images/home/slider/hill.png" class="slider-hill" alt="slider image">
+                <img src="/images/home/slider/house.png" class="slider-house" alt="slider image">
+                <img src="/images/home/slider/sun.png" class="slider-sun" alt="slider image">
+                <img src="/images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
+                <img src="/images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
+            </div>
+        </div>
+    </div>
+    <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+</section>
+
+
+<section id="skills">
+    <div class="text-center">
+        <br><br><br><br><br>
+        <h2>Skills</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="200ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="/images/home/leadership.png" alt="">
+                    </div>
+                    <h2>Leadership</h2>
+                    <p>I am always striving to learn from those around me and to be a
+                    great leader.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                        <img src="/images/home/teamwork.png" alt="">
+                    </div>
+                    <h2>Teamwork</h2>
+                    <p>I always try to be a team player and support my team as best as possible.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                        <img src="/images/home/problemsolving.png" alt="">
+                    </div>
+                    <h2>Problem Solving</h2>
+                    <p>I enjoy solving challenging, complex problems. I particularly
+                    like designing a solution to a problem (especially with
+                    other people as excited about the idea as me).</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="/images/home/java.jpg" alt="">
+                    </div>
+                    <h2>Java</h2>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                        <img src="/images/home/python.jpg" alt="">
+                    </div>
+                    <h2>Python</h2>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                        <img src="/images/home/golang.jpg" alt="">
+                    </div>
+                    <h2>Golang</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="/images/home/hashbang.jpg" alt="">
+                    </div>
+                    <h2>C & Assembly</h2>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                        <img src="/images/home/bash.png" alt="">
+                    </div>
+                    <h2>Scripting Languages (Bash/Perl)</h2>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                        <img src="/images/home/database.png" alt="">
+                    </div>
+                    <h2>Databases (SQL / NoSQL)</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="/images/home/android.png" alt="">
+                    </div>
+                    <h2>Android App Development</h2>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                        <img src="/images/home/webapp.jpg" alt="">
+                    </div>
+                    <h2>Web App Development</h2>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                        <img src="/images/home/websec.png" alt="">
+                    </div>
+                    <h2>Web App Security</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="/images/home/aws.png" alt="">
+                    </div>
+                    <h2>Amazon Web Services (AWS)</h2>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                        <img src="/images/home/googlecloud.jpg" alt="">
+                    </div>
+                    <h2>Google Cloud Platform</h2>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                        <img src="/images/home/multios.png" alt="">
+                    </div>
+                    <h2>Experienced with multiple OS (Linux, Mac OS, Windows)</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="action" class="responsive">
+    <div class="vertical-center">
+        <div class="container">
+            <div class="row">
+                <div class="action take-tour">
+                    <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h1 class="title">Continually learning and growing</h1>
+                        <p>Moving forward with an open heart and an open mind</p>
+                    </div>
+                    <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="tour-button">
+                            <a href="#testimonials" class="btn btn-common">SEE MY TESTIMONIALS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="portfolio">
+    <div class="text-center">
+        <br><br><br><br><br>
+        <h2>Portfolio</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="single-features">
+                <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <img src="/images/home/blogWebsite.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <h2>Blog Website</h2>
+                    <P>Glamour/Fashion/Beauty Blog Website written in Golang.
+                        Multi page site that includes interesting articles and images,
+                        in different reader sections. Solo project.</P>
+                    <a href="https://beautyandtheast.com">Check out the blog!</a>
+                </div>
+            </div>
+
+            <div class="single-features">
+                <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <h2>SPOTS</h2>
+                    <P>Web App backend in Python(frontend to come) & Mobile App
+                        frontend (currently only in Android (written in Java)) written
+                        with Matt Quigley.
+                        <br><br>
+                        No further info can be given at this time.
+                    </P>
+                    <a href="https://spots.website">Check out the site! (Currently down)</a>
+                </div>
+                <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <img src="/images/home/mystery.png" class="img-responsive" alt="">
+                </div>
+            </div>
+
+            <div class="single-features">
+                <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <img src="/images/home/security.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <h2>Security Special Project</h2>
+                    <P>Special Project (via UNSW course Special Project A) alongside
+                        a team of approx. 15 UNSW students for a security project.
+                        The project was a collaborative effort split into two separate
+                        parts, one involving UNSW + Commonwealth Bank (CBA) and the other
+                        involving UNSW + Cisco.
+                        <br><br>
+                        The first was a web app related penetration test of a high profile,
+                        secure website. The second was a network protocol security project
+                        involving cracking of a "black box" encryption protocol being used
+                        within a highly secure network. Unfortunately, no further
+                        information can be given.
+                        <br><br>
+                        These two projects I was involved in through the Special Security
+                        Project were an amazing learning experience for me and taught
+                        me a great deal about working within a large team on a big,
+                        real world project. I took a leadership role within the team,
+                        leading by example throughout the penetration testing activities.
+                        <br><br>
+                        While I had no prior penetration testing experience, my curiosity
+                        and motivation to learn made up for it.
+                    </P>
+                </div>
+            </div>
+
+            <div class="single-features">
+                <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <h2>Dark Chess</h2>
+                    <P>A cross platform game (focused on mobile gameplay mostly)
+                        based on the idea of chess with fog of war. Essentially normal
+                        chess rules with limited visual information (based on where
+                        your pieces can move to), which makes the game super exciting!
+                        <br><br>
+                        This game was made as part of a team project for COMP4920 (Ethics)
+                        by my team "The Check Mates" consisting of myself, Chaim Kam,
+                        Ike Yuan, Jake Abrahams and Matt Quigley. Created using
+                        AVR Studio. My role within the team was that of Scrum Master,
+                        (worked alongside Matt our Product Owner) and was responsible
+                        for developing mostly frontend stuff.
+                        <br><br>
+                        Overall this was a great learning experience for both
+                        effective teamwork and managing delivery on a larger scale project.
+                        <br><br>
+                        Take a look at the repo for more info on the game</P>
+                    <a href="https://bitbucket.org/DSA123/darkchess/">Check out the code!</a>
+                </div>
+                <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <img src="/images/home/darkchess.png" class="img-responsive" alt="">
+                </div>
+            </div>
+
+            <div class="single-features">
+                <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <img src="/images/home/GoT.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <h2>Game of 4</h2>
+                    <P>Game of Thrones Themed Connect 4. Created using Java and
+                        utilized JavaFX for most of the animation / game based stuff.
+                        <br><br>
+                        This game was made as part of a team project for COMP2911 (Engineering Design).
+                        I was the Scrum Master in this team, and was responsible for
+                        design and mostly frontend development (though because the team
+                        was quite large we all worked together on a bunch of stuff
+                        to ensure it would all get finshed in time).
+                    </P>
+                    <a href="https://bitbucket.org/DSA123/comp2911-game-of-4-connect4-game-of-thrones-themed-assignment">
+                        Check out the code!</a>
+                </div>
+            </div>
+
+            <div class="single-features">
+                <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <h2>Microwave Using Microprocessor and Assembly</h2>
+                    <P>Created a microwave using a microprocessor (running an
+                    ARM chip) which essentially was a board with some external
+                    I/O and some microwave features (LED screen, motor, buttons
+                    etc.) Wrote all code in Assembly using AVR Studio along
+                    with Jake Abrahams (my partner for the project).
+                    <br><br>
+                    The repo below contains the microwave code in Proj.asm as
+                    well as each of the lab's code in the build up to the
+                    microwave project.</P>
+                    <a href="https://bitbucket.org/DSA123/avr-microwave-assembly">Check out the code!</a>
+                </div>
+                <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <img src="/images/home/microprocessor.PNG" class="img-responsive" alt="">
+                </div>
+            </div>
+
+            <div class="single-features">
+                <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <img src="/images/home/projects.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <h2>Other Misc. Projects</h2>
+                    <P>Take a look at my bitbucket and github links in the navigation
+                        bar at the top of the page to see other university projects and
+                        code I've written in my spare time.
+                        <br>
+                        Enjoy!
+                    </P>
+                    <a href="#">Go to the nav bar now!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="aboutme">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center bottom-separator">
+                <img src="/images/home/under.png" class="img-responsive inline" alt="">
+                <br><br><br><br><br>
+                <h2>About Me</h2>
+                <br><br><br><br><br>
+            </div>
+            <div class="col-sm-12">
+                <div class="clients text-center wow scaleIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <p><img src="/images/home/mypic.jpg" class="img-responsive" alt=""></p>
+                    <h1 class="title">David Aaron</h1>
+                    <p>A computer science grad who loves new tech and likes to move fast
+                        and break things...<br> As long as i'm learning :) </p>
+                </div>
+                <div class="single-features">
+                    <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="col-md-3">
+                            <a href="#"><img src="/images/home/aboutme1.png" class="img-responsive" alt=""></a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="#"><img src="/images/home/aboutme2.png" class="img-responsive" alt=""></a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="#"><img src="/images/home/aboutme3.png" class="img-responsive" alt=""></a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="#"><img src="/images/home/aboutme4.png" class="img-responsive" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="testimonials">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center bottom-separator">
+                <img src="/images/home/under.png" class="img-responsive inline" alt="">
+                <br><br><br><br><br>
+                <h2>Testimonials</h2>
+            </div>
+            <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="200ms">
+                <div class="testimonial bottom">
+                    <div class="media">
+                        <div class="pull-left">
+                            <a href="#"><img src="/images/home/malegeneric.png" alt=""></a>
+                        </div>
+                        <div class="media-body">
+                            <blockquote>We have been very impressed by the initiative and determination and self directed learning you have done in this summer project!  I think this is exactly what time at uni should be like, projects, fun, challenges, and curiosity driven learning.</blockquote>
+                            <h3>- About the Special Project groups performance overall. <a href="https://www.cse.unsw.edu.au/~richardb/">- Richard Buckland - Associate Professor - UNSW</a></h3>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="pull-left">
+                            <a href="#"><img src="/images/home/malegeneric.png" alt=""></a>
+                        </div>
+                        <div class="media-body">
+                            <blockquote>David is a hardworker and has a never give up attitude.</blockquote>
+                            <h3><a href="">- Anonymous</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 wow scaleIn" data-wow-duration="1000ms" data-wow-delay="200ms">
+                <div class="testimonial bottom">
+                    <div class="media">
+                        <div class="pull-left">
+                            <a href="#"><img src="/images/home/femalegeneric.png" alt=""></a>
+                        </div>
+                        <div class="media-body">
+                            <blockquote>David is always trying to learn and stay curious.</blockquote>
+                            <h3><a href="">- Anonymous</a></h3>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="pull-left">
+                            <a href="#"><img src="/images/home/malegeneric.png" alt=""></a>
+                        </div>
+                        <div class="media-body">
+                            <blockquote>David is a great leader and team player who always listens
+                            to other peoples ideas and opinions.</blockquote>
+                            <h3><a href="">- The Check Mates</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 col-sm-6 wow scaleIn" data-wow-duration="1000ms" data-wow-delay="200ms">
+                <div class="testimonial bottom">
+                    <div class="media">
+                        <div class="pull-left">
+                            <a href="#"><img src="/images/home/malegeneric.png" alt=""></a>
+                        </div>
+                        <div class="media-body">
+                            <blockquote>David has been a dependable and supportive friend and team member for as long as I have known him. David is proactive, reliable and takes initiative in team work situations to ensure the group is communicating and performing towards goals. David is supportive, empathetic and organised in his personal life, and I know him to be motivated toward personal development as he is always taking up learning projects in his free time. </blockquote>
+                            <h3><a href="http://mattquigley.me">- Matt Quigley - UNSW Computer Science Graduate</a></h3>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="pull-left">
+                            <a href="#"><img src="/images/home/femalegeneric.png" alt=""></a>
+                        </div>
+                        <div class="media-body">
+                            <blockquote>David is truly amazing!</blockquote>
+                            <h3><a href="">- David's Mum</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center bottom-separator">
+                <br><br><br><br><br>
+                <img src="/images/home/under.png" class="img-responsive inline" alt="">
+                <br><br><br><br><br>
+                <h2>My Favourite XKCD Comic</h2>
+            </div>
+
+            <div class="col-sm-12">
+                <div class="clients text-center wow scaleIn" data-wow-duration="1000ms" data-wow-delay="200ms">
+                    <p><img src="/images/home/xkcd.jpg" class="img-responsive" alt=""></p>
+                    <br><br><br>
+                    <a href="#" class="btn btn-common">BACK TO THE TOP</a>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="copyright-text text-center">
+                        <p>&copy; David Aaron Productions. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/wow.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+</body>
+</html>
