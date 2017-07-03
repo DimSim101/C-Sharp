@@ -1,6 +1,7 @@
 ﻿
 using System.Net.Mail;
 using System;
+using ClassLibrary;
 
 namespace References
 {
@@ -8,6 +9,50 @@ namespace References
     {
         static void Main(string[] args)
         {
+
+            // Example with my own Class Library reference assembly.
+
+            string kingdavidUrl = "https://kingdavid.xyz";
+            string beautyUrl = "https://beautyandtheast.com";
+            string separator = new string('-', 50) + "\n";
+
+            Scrape scraper = new Scrape();
+            scraper.ScrapeWebPageToConsole(kingdavidUrl);
+
+            Console.WriteLine(separator);
+
+            string kingdavidContent = scraper.ScrapeWebPage(kingdavidUrl);
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("KING DAVID CONSOLE...");
+            Console.WriteLine(kingdavidContent);
+
+            Console.WriteLine(separator);
+
+            string beautyPageContent = scraper.ScrapeWebPage(beautyUrl);
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("BEAUTY AND THE EAST STANDARD...");
+            Console.WriteLine(beautyPageContent);
+
+            Console.WriteLine(separator);
+
+            string kingdavidContentFile = scraper.ScrapeWebPageToFile(kingdavidUrl, "/Users/Administrator/Documents/Visual Studio 2017/Projects/C#/Fundamentals-of-C#/References/kingdavid.txt");
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("KING DAVID FILE...");
+            Console.WriteLine(kingdavidContentFile);
+
+            Console.WriteLine(separator);
+
+
+            //-------------------------------------------------------------------------------------------------------------------
+
+            // Example with some default reference assembly i.e. System.Net
+
             // We had to add the System.Net framework before we can make calls to it - i.e. create an email message
             // Right click References in Solution Explorer -> Add Reference -> Tick System.Net -> System.Net should appear in Solution Explorer / be available now.
 
